@@ -954,3 +954,296 @@ indexmap
     object-position: center;
     display: block;
 }
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.hero-yellow {
+    color: #f4c430;
+    font-weight: bold;
+}
+
+/* Logo + heading container */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;              /* space between logo & text */
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Logo image */
+.logo {
+    width: 40px;            /* adjust size if needed */
+    height: auto;
+}
+
+/* Highlight color for Hero Cycles text */
+.hero-yellow {
+    color: #f4c430;         /* Hero Cycles yellow */
+    font-weight: 700;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    .logo-title {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 30px;
+    }
+}
+
+/* header */
+/* Header */
+.site-header {
+    background: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Nav layout */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Brand area */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Logo */
+.brand-logo {
+    width: 42px;
+    height: auto;
+}
+
+/* Text block */
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+/* Main name */
+.brand-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+}
+
+/* Tagline */
+.brand-tagline {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Highlight */
+.hero-yellow {
+    color: #f4c430;
+    font-weight: 600;
+}
+
+/* Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #f4c430;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
+
+/* ===== HEADER BACKGROUND ===== */
+.site-header {
+    background: #0b4aa2;            /* Dark Hero Blue */
+    padding: 14px 30px;
+}
+
+/* NAV BAR */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ===== BRAND AREA ===== */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* LOGO */
+.brand-logo {
+    width: 48px;
+    height: auto;
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+/* BRAND TEXT */
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+}
+
+/* MAIN NAME */
+.brand-name {
+    color: #f4c430;                 /* Yellow */
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* TAGLINE */
+.brand-tagline {
+    color: #ffffff;                 /* White */
+    font-size: 13px;
+}
+
+/* ===== MENU ===== */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #f4c430;
+    text-decoration: underline;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .nav-links {
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+}
+
+/* Medium, professional logo size */
+.brand-logo {
+    width: 70px;          /* ideal medium size */
+    height: auto;
+    background: #ffffff;
+    padding: 6px;
+    border-radius: 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+/* service */
+/* Logo + Title Container */
+.logo-title {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    gap: 12px;
+}
+
+/* Logo Medium Size */
+.logo {
+    height: 55px;   /* medium */
+    width: auto;
+}
+
+/* Hero Cycles text */
+.logo-title {
+    color: #ffffff; /* WHITE */
+}
+
+/* Ramakrishna text */
+.hero-yellow {
+    color: #f9c400; /* HERO YELLOW */
+    font-weight: 700;
+}
+
+/* contact */
+/* Header background */
+header {
+    background-color:  #0047AB; /* Hero Blue */
+    padding: 12px 30px;
+}
+
+/* Logo + text wrapper */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Logo medium size */
+.logo {
+    height: 55px;   /* Medium size */
+    width: auto;
+}
+
+/* Ramakrishna Cycle Agencies - WHITE */
+.logo-title {
+    color: #ffffff;
+}
+
+/* Hero Cycles - YELLOW */
+.hero-yellow {
+    color: #f9c400;
+    font-weight: 700;
+}
